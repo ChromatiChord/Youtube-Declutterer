@@ -1,10 +1,13 @@
 {
   "name": "Youtube Player Declutterer",
-  "version": "2.0",
+  "version": "1.2",
   "manifest_version": 2,
   "icons": {
-    "16": "./Declutter Icon.png"
+    "16": "./Declutter Icon.png",
+    "48": "./Declutter Icon.png",
+    "128": "./Declutter Icon.png"
   },
+  "description": "Disables annoying Youtube player features such as the miniplayer, and gives users the option to toggle these features on or off. Also allows for speeding up of Youtube videos beyond 2x speed.",
   "content_scripts": [
     {
       "matches": ["*://*.youtube.com/*"],
