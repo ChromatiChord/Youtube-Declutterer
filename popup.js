@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById("del_autoplay").addEventListener('click', function () {
     del_icon("autoplay")
   })
-  //  // closed captions
-  //  document.getElementById("del_subtitles").addEventListener('click', function () {
-  //   del_icon("closed_captions")
-  // })
+   // closed captions
+   document.getElementById("del_subtitles").addEventListener('click', function () {
+    del_icon("closed_captions")
+  })
   // toggle settings
   document.getElementById("del_settings").addEventListener('click', function () {
     del_icon("settings")
@@ -40,6 +40,5 @@ output.innerHTML = "Playback Speed: " + slider.value; // Display the default sli
 // Update the current slider value (each time you drag the slider handle)
 slider.oninput = function() {
   output.innerHTML = "Playback Speed: " + this.value;
-  console.log(slider.value)
   del_icon(slider.value)
 }

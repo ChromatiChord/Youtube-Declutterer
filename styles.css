@@ -1,13 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
 body {
   height: 500px;
-  width: 200px;
+  width: 250px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #353531;
+  color: white;
+}
+
+.container {
+  padding: 5px;
+}
+
+.icon_containers {
+  margin: 10px;
+}
+
+.icon_disable_label {
+  vertical-align: middle;
 }
 
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 53px;
+  height: 24px;
 }
 
 .switch input {
@@ -31,8 +48,8 @@ body {
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
+  height: 16px;
+  width: 16px;
   left: 4px;
   bottom: 4px;
   background-color: white;
@@ -93,13 +110,13 @@ input:checked + .slider:before {
   appearance: none;
   width: 25px; /* Set a specific slider handle width */
   height: 25px; /* Slider handle height */
-  background: #04AA6D; /* Green background */
+  background: #2196F3; /* Green background */
   cursor: pointer; /* Cursor on hover */
 }
 
 .long_slider::-moz-range-thumb {
   width: 25px; /* Set a specific slider handle width */
   height: 25px; /* Slider handle height */
-  background: #04AA6D; /* Green background */
+  background: #2196F3; /* Green background */
   cursor: pointer; /* Cursor on hover */
 }

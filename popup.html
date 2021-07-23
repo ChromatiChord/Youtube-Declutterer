@@ -4,45 +4,59 @@
       <link rel='stylesheet' type='text/css' href='styles.css'>
     </head>
     <body>
-      <div>
-        <label>Autoplay Toggle</label>
-        <label class="switch">
-          <input type="checkbox", id="del_autoplay">
-          <span class="slider round"></span>
-        </label>
+      <div class="container"></div>
+        <h1>Youtube Declutifier</h1>
       </div>
-      <div>
-        <label>Settings Toggle</label>
-        <label class="switch">
-          <input type="checkbox", id="del_settings">
-          <span class="slider round"></span>
-        </label>
+      <div class="container"></div>
+        <div class="icon_containers">
+          <label class="icon_disable_label">Autoplay Disabled</label>
+          <label class="switch">
+            <input type="checkbox", id="del_autoplay">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="icon_containers">
+          <label class="icon_disable_label">Closed Captions Disabled</label>
+          <label class="switch">
+            <input type="checkbox", id="del_subtitles" checked>
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="icon_containers">
+          <label class="icon_disable_label">Settings Disabled</label>
+          <label class="switch">
+            <input type="checkbox", id="del_settings">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="icon_containers">
+          <label class="icon_disable_label">Miniplayer Disabled</label>
+          <label class="switch">
+            <input type="checkbox", id="del_miniplayer" checked>
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="icon_containers">
+          <label class="icon_disable_label">Theatre Mode Disabled</label>
+          <label class="switch">
+            <input type="checkbox", id="del_size">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="icon_containers">
+          <label class="icon_disable_label">Fullscreen Disabled</label>
+          <label class="switch">
+            <input type="checkbox", id="del_fullscreen">
+            <span class="slider round"></span>
+          </label>
+        </div>
       </div>
-      <div>
-        <label>Miniplayer Toggle</label>
-        <label class="switch">
-          <input type="checkbox", id="del_miniplayer">
-          <span class="slider round"></span>
-        </label>
+      <div class="container"></div>
+        <div class="slidecontainer">
+          <input type="range" min="0" max="10" value="1" class="long_slider" id="playback_speed">
+        </div>
+        <div id="playbackspeed"></div>
       </div>
-      <div>
-        <label>Theatre Mode Toggle</label>
-        <label class="switch">
-          <input type="checkbox", id="del_size">
-          <span class="slider round"></span>
-        </label>
-      </div>
-      <div>
-        <label>Fullscreen Toggle</label>
-        <label class="switch">
-          <input type="checkbox", id="del_fullscreen">
-          <span class="slider round"></span>
-        </label>
-      </div>
-      <div class="slidecontainer">
-        <input type="range" min="0" max="10" value="0.5" class="long_slider" id="playback_speed">
-      </div>
-      <div id="playbackspeed"></div>
       <script src="popup.js" charset="utf-8"></script>
     </body>
 
