@@ -1,5 +1,5 @@
 # Youtube-Declutterer
-## What is this?
+## What is this app?
 A Javascript-based Chrome extension that removes clutter from the Youtube player interface, and allows for faster and more finely tuned playback.
 
 ## Installation Instructions:
