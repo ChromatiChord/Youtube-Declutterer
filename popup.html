@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel='stylesheet' type='text/css' href='styles.css'>
+    </head>
+    <body>
+      <div>
+        <label>Autoplay Toggle</label>
+        <label class="switch">
+          <input type="checkbox", id="del_autoplay">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div>
+        <label>Settings Toggle</label>
+        <label class="switch">
+          <input type="checkbox", id="del_settings">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div>
+        <label>Miniplayer Toggle</label>
+        <label class="switch">
+          <input type="checkbox", id="del_miniplayer">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div>
+        <label>Theatre Mode Toggle</label>
+        <label class="switch">
+          <input type="checkbox", id="del_size">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div>
+        <label>Fullscreen Toggle</label>
+        <label class="switch">
+          <input type="checkbox", id="del_fullscreen">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="slidecontainer">
+        <input type="range" min="0" max="10" value="0.5" class="long_slider" id="playback_speed">
+      </div>
+      <div id="playbackspeed"></div>
+      <script src="popup.js" charset="utf-8"></script>
+    </body>
+
+</html>
