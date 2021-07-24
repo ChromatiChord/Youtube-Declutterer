@@ -4,9 +4,11 @@ let settings_hidden = false;
 let miniplayer_hidden = true;
 let theatre_hidden = false;
 let fullscreen_hidden = false;
+let cast_hidden = true;
 
 document.getElementsByClassName("ytp-miniplayer-button")[0].style.display = "none";
 document.getElementsByClassName("ytp-subtitles-button")[0].style.display = "none";
+document.querySelector('[title="Play on TV"]').style.display = "none";
 
 chrome.runtime.onMessage.addListener(function (request) {
   
@@ -34,6 +36,10 @@ chrome.runtime.onMessage.addListener(function (request) {
     case "fullscreen":
       fullscreen_hidden = !fullscreen_hidden;  
       document.getElementsByClassName("ytp-fullscreen-button")[0].style.display = fullscreen_hidden ? "none" : "inline";
+      break;
+    case "cast":
+      cast_hidden = !cast_hidden;  
+      document.querySelector('[title="Play on TV"]').style.display = cast_hidden ? "none" : "inline";
       break;
     default:
       document.getElementsByTagName("video")[0].playbackRate = parseInt(request);        

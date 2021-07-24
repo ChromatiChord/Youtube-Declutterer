@@ -7,6 +7,10 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById("del_size").addEventListener('click', function () {
     del_icon("theatre")
   })
+  // toggle casting
+  document.getElementById("del_cast").addEventListener('click', function () {
+    del_icon("cast")
+  })
   // toggle autoplay
   document.getElementById("del_autoplay").addEventListener('click', function () {
     del_icon("autoplay")
