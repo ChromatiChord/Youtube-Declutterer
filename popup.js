@@ -36,7 +36,6 @@ function del_icon(icon_id) {
   })
 }
 
-
 let slider = document.getElementById("playback_speed");
 let output = document.getElementById("playbackspeed");
 output.innerText = "Playback Speed: " + slider.value; // Display the default slider value

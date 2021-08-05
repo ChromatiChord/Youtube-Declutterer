@@ -8,18 +8,27 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
+  border: #353131 solid 2px;
 }
 
-.container {
-  padding: 5px;
-}
-
-.icon_containers {
-  margin: 10px;
+.main_container {
+  text-align: center;
 }
 
 .icon_disable_label {
   vertical-align: middle;
+  position: relative;
+  margin-bottom: 7px;
+  min-width: 125px;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 7px;
+}
+
+.col {
+  flex: 2 1;
 }
 
 .switch {
