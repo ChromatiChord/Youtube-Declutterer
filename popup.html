@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <link rel='stylesheet' type='text/css' href='styles.css'>
+	    <link rel='stylesheet' type='text/css' href='styles.css'>
     </head>
     <body>
       <div class="container"></div>
@@ -11,7 +11,7 @@
         <div class="icon_containers">
           <label class="icon_disable_label">Autoplay Disabled</label>
           <label class="switch">
-            <input type="checkbox", id="del_autoplay">
+            <input type="checkbox", id="del_autoplay" checked>
             <span class="slider round"></span>
           </label>
         </div>
@@ -60,7 +60,7 @@
       </div>
       <div class="container"></div>
         <div class="slidecontainer">
-          <input type="range" min="0" max="10" value="1" class="long_slider" id="playback_speed">
+          <input type="range" step="0.25" min="1" max="10" value="1" class="long_slider" id="playback_speed">
         </div>
         <div id="playbackspeed"></div>
       </div>

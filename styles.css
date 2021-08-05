@@ -3,9 +3,11 @@
 body {
   height: 500px;
   width: 250px;
-  font-family: 'Poppins', sans-serif;
   background-color: #353531;
   color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
 }
 
 .container {
