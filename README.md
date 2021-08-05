@@ -11,4 +11,4 @@ A Javascript-based Chrome extension that removes clutter from the Youtube player
 6. Enable the extension!
 
 ## Why is this not just on the Chrome Store?
-Google asks for a $5 sign up fee to upload apps to the Chrome store, and I don't want to do that.
+Google asks for a $5 sign up fee to upload apps to the Chrome store, and I don't really want to pay that.
