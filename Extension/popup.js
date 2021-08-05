@@ -37,11 +37,11 @@ function del_icon(icon_id) {
 }
 
 let slider = document.getElementById("playback_speed");
-let output = document.getElementById("playbackspeed");
-output.innerText = "Playback Speed: " + slider.value; // Display the default slider value
+let output = document.getElementById("speed_value");
+output.innerText = slider.value; // Display the default slider value
 
 // Update the current slider value (each time you drag the slider handle)
 slider.oninput = function() {
-  output.innerText = "Playback Speed: " + this.value;
+  output.innerText = this.value;
   del_icon(slider.value)
 }
