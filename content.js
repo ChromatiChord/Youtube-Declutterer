@@ -14,7 +14,7 @@ for (let icon in icons) {
 
 chrome.runtime.onMessage.addListener(function (request) {
   if (!isNaN(request)) {
-    document.getElementsByTagName("video")[0].playbackRate = parseInt(request);  
+    document.getElementsByTagName("video")[0].playbackRate = parseFloat(request);  
   } 
   else {
     icons[request] = !icons[request];  
