@@ -25,10 +25,12 @@ body {
 .row {
   display: flex;
   margin-bottom: 7px;
+  margin-left: 20px;
+  max-width: 80%;
 }
 
 .col {
-  flex: 2 1;
+  flex: 1 1 auto;
 }
 
 .switch {

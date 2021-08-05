@@ -12,6 +12,12 @@ for (let icon in icons) {
   disable_icon(icon);
 } 
 
+setInterval(function() {
+  for (let icon in icons) {
+    disable_icon(icon);
+  } 
+}, 10000);
+
 chrome.runtime.onMessage.addListener(function (request) {
   if (!isNaN(request)) {
     document.getElementsByTagName("video")[0].playbackRate = parseFloat(request);  
