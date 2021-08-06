@@ -12,12 +12,12 @@ for (let icon in icons) {
   icon_toggle(icon);
 } 
 
-// every 10 seconds, ensure the correct icons are disabled
+// every 2 seconds, ensure the correct icons are disabled
 setInterval(function() {
   for (let icon in icons) {
     icon_toggle(icon);
   } 
-}, 10000);
+}, 2000);
 
 // called by del_icon() in popup.js whenever a switch is flicked or slider adjusted
 chrome.runtime.onMessage.addListener(function (request) {
