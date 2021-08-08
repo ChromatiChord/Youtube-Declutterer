@@ -110,6 +110,7 @@ input:checked + .slider:before {
   opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
   -webkit-transition: .2s; /* 0.2 seconds transition on hover */
   transition: opacity .2s;
+  border-radius: 30px;
 }
 
 /* Mouse-over effects */
@@ -121,10 +122,11 @@ input:checked + .slider:before {
 .long_slider::-webkit-slider-thumb {
   -webkit-appearance: none; /* Override default look */
   appearance: none;
-  width: 25px; /* Set a specific slider handle width */
+  width: 30px; /* Set a specific slider handle width */
   height: 25px; /* Slider handle height */
-  background: #2196F3; /* Green background */
+  background: #2196F3; 
   cursor: pointer; /* Cursor on hover */
+  border-radius: 30px;
 }
 
 .long_slider::-moz-range-thumb {
