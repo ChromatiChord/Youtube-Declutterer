@@ -7,7 +7,7 @@ A Javascript-based Chrome extension that removes clutter from the Youtube player
 2. In Chrome, click the three dots on the top right corner of your screen.
 3. Select More Tools -> Extensions.
 4. Enable Developer Mode with the switch in the top right hand corner.
-5. Select "Load Unpacked" on the top left, and select the the downloaded Github folder.
+5. Select "Load Unpacked" on the top left, and select the downloaded Github folder.
 6. Enable the extension!
 
 ## Why is this not just on the Chrome Store?
